@@ -41,7 +41,7 @@ public class DigiAMain extends AppCompatActivity {
      */
     private GoogleApiClient client;
 
-    @Overridedi
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_digi_amain);
