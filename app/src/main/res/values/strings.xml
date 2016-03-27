@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DigiA</string>
+    <string name="action_settings">Settings</string>
+
+    <array name="dirty_jokes">
+
+        <item>When do you kick a midget in the balls?When he is standing next to your girlfriend saying her hair smells nice.</item>
+        <item>What\'s the difference between your job and a dead prostitute? Your job still sucks.</item>
+        <item>How does a woman scare a gynecologist? Be becoming a ventriloquist.</item>
+        <item>What\'s long and hard and has cum in it? Cucumber</item>
+        <item>How do you kill a circus clown? Go for the juggler</item>
+        <item>Why can\'t you play Uno with a Mexican? They steal all the green cards</item>
+        <item>Why was the guitarist arrested? For fingering A minor</item>
+        <item>What\'s 72? 69 with 3 people watching</item>
+
+    </array>
+</resources>
