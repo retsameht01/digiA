@@ -1,4 +1,4 @@
-package com.ttlenterprise.digia;
+package com.ttlenterprise.digia.main;
 
 import android.app.SearchManager;
 import android.content.Intent;
@@ -7,13 +7,14 @@ import android.content.pm.ResolveInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.speech.RecognizerIntent;
+import android.speech.tts.TextToSpeech;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -21,13 +22,12 @@ import android.widget.Toast;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
+import com.ttlenterprise.digia.R;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import java.util.Random;
-
-import android.speech.tts.TextToSpeech;
 
 public class DigiAMain extends AppCompatActivity {
     private static final int VOICE_RECOGNITION_REQUEST_CODE = 11001;
